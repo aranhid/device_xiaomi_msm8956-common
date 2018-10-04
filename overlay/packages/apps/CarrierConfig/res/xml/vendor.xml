@@ -1951,4 +1951,52 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <carrier_config mcc="260" mnc="03">
         <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
     </carrier_config>
+    <carrier_config mcc="250" mnc="02">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+       <boolean name="carrier_wfc_ims_available_bool" value="true" />
+       <string-array name="carrier_metered_apn_types_strings" num="5">
+              <item value="default" />
+              <item value="dun" />
+              <item value="supl" />
+              <item value="fota" />
+              <item value="ims" />
+       </string-array>
+    </carrier_config>
+    <carrier_config mcc="250" mnc="99">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+       <boolean name="carrier_wfc_ims_available_bool" value="true" />
+       <string-array name="carrier_metered_apn_types_strings" num="5">
+              <item value="default" />
+              <item value="dun" />
+              <item value="supl" />
+              <item value="fota" />
+              <item value="ims" />
+       </string-array>
+    </carrier_config>
+    <carrier_config mcc="250" mnc="01">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+       <boolean name="carrier_wfc_ims_available_bool" value="true" />
+       <string-array name="carrier_metered_apn_types_strings" num="5">
+              <item value="default" />
+              <item value="dun" />
+              <item value="supl" />
+              <item value="fota" />
+              <item value="ims" />
+       </string-array>
+    </carrier_config>
+    <carrier_config mcc="250" mnc="20">
+       <boolean name="carrier_volte_available_bool" value="true" />
+       <boolean name="carrier_vt_available_bool" value="true" />
+       <boolean name="carrier_wfc_ims_available_bool" value="true" />
+       <string-array name="carrier_metered_apn_types_strings" num="5">
+              <item value="default" />
+              <item value="dun" />
+              <item value="supl" />
+              <item value="fota" />
+              <item value="ims" />
+       </string-array>
+    </carrier_config>
 </carrier_config_list>
