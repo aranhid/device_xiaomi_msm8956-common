@@ -175,6 +175,10 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
 #    XiaomiDoze
 
+# Device features
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Face detection extension
 PRODUCT_PACKAGES += \
     org.codeaurora.camera

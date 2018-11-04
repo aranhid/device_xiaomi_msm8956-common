@@ -218,6 +218,13 @@ on boot
     chown system system /sys/class/leds/green/led_time
     chown system system /sys/class/leds/blue/led_time
 
+    # Vibrator permissions
+    chown root system /sys/class/timed_output/vibrator/vtg_level
+    chmod 0660 /sys/class/timed_output/vibrator/vtg_level
+
+    # Touchscreen
+    chown root system /sys/android_touch/doubletap2wake
+    chmod 0660 /sys/android_touch/doubletap2wake
 
     # Create directory used for display
     mkdir /persist/display 0770 system graphics
