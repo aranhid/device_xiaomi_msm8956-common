@@ -9,6 +9,8 @@ LOCAL_PRIVILEGED_MODULE := true
 LOCAL_AAPT_FLAGS := --auto-add-overlay
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
 
+LOCAL_PRIVATE_PLATFORM_APIS := true
+
 package_resource_overlays := $(strip \
     $(wildcard $(foreach dir, $(PRODUCT_PACKAGE_OVERLAYS), \
       $(addprefix $(dir)/, packages/apps/XiaomiParts/res))) \
