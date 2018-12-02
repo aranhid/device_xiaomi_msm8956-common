@@ -488,7 +488,7 @@ etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 -framework/QtiTelephonyServicelibrary.jar
 -framework/qcrilhook.jar
-#-framework/qti-telephony-common.jar
+-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/netmgrd
 vendor/bin/qmuxd
@@ -536,7 +536,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
--app/ims/ims.apk|0705902307d7158d7cc2ecb01e8acd9425ec9623
+-priv-app/ims/ims.apk|eef47c0b6f250e7f96e7155d84274b1c83940d8f
 -app/imssettings/imssettings.apk|0e579b1c9251173b9ec0381a0bb406d0e0314c39
 etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
