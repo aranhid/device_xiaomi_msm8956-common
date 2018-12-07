@@ -537,7 +537,7 @@ vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS
 -priv-app/ims/ims.apk|eef47c0b6f250e7f96e7155d84274b1c83940d8f
--app/imssettings/imssettings.apk|0e579b1c9251173b9ec0381a0bb406d0e0314c39
+-vendor/app/imssettings/imssettings.apk|34bb4f4e805c938d894cce6b4cee66516f64a130
 etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
