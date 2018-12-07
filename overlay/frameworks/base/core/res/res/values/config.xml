@@ -169,40 +169,49 @@
          backlight values for LUX levels between these control points.
 
          Must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLevels">
-        <item>10</item>     <!-- twilight -->
-        <item>50</item>     <!-- dim indoor -->
-        <item>100</item>    <!-- home -->
-        <item>200</item>    <!-- office --> 
-        <item>400</item>    
-        <item>500</item>    <!-- sunrise -->
-        <item>800</item>
-        <item>1000</item>   <!-- overcast -->
-        <item>1600</item>   
-        <item>3000</item>   <!-- indirect sun -->
-        <item>10000</item>  <!-- daylight -->
-
-    </integer-array>
+     <integer-array name="config_autoBrightnessLevels">
+          <item>10</item>
+          <item>30</item>
+          <item>80</item>
+          <item>120</item>
+          <item>225</item>
+          <item>320</item>
+          <item>550</item>
+          <item>800</item>
+          <item>1250</item>
+          <item>2000</item>
+          <item>3000</item>
+          <item>4000</item>
+          <item>5000</item>
+          <item>6000</item>
+          <item>8000</item>
+          <item>10000</item>
+     </integer-array>
 
     <!-- Array of output values for LCD backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
          The brightness values must be between 0 and 255 and be non-decreasing.
          This must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>18</item>   <!-- 0-10 -->
-        <item>28</item>   <!-- 10-50 -->
-        <item>37</item>   <!-- 50-100 -->
-        <item>51</item>   <!-- 100-200 -->
-        <item>71</item>   <!-- 200-400 -->
-        <item>80</item>   <!-- 400-500 -->
-        <item>96</item>   <!-- 500-800 -->
-        <item>108</item>  <!-- 800-1000 -->
-        <item>144</item>  <!-- 1000-1600 -->
-        <item>181</item>  <!-- 1600-3000 -->
-        <item>254</item>  <!-- 3000-10000 -->
-        <item>255</item>  <!-- 10000+ -->
-    </integer-array>
+     <integer-array name="config_autoBrightnessLcdBacklightValues">
+          <item>7</item>
+          <item>17</item>
+          <item>31</item>
+          <item>38</item>
+          <item>51</item>
+          <item>59</item>
+          <item>75</item>
+          <item>88</item>
+          <item>106</item>
+          <item>128</item>
+          <item>150</item>
+          <item>168</item>
+          <item>183</item>
+          <item>196</item>
+          <item>219</item>
+          <item>238</item>
+          <item>255</item>
+     </integer-array>
 
     <!-- MMS user agent string -->
     <string name="config_mms_user_agent" translatable="false">Android-Mms/2.0</string>
