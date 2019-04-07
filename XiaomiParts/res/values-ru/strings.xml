@@ -24,4 +24,8 @@
 
     <string name="display_title">Экран</string>
     <string name="device_doze_title">Индикация событий</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_title">Улучшение звука Mi</string>
+    <string name="dirac_summary">Улучшить качество звука</string>
 </resources>

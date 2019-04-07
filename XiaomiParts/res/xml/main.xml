@@ -38,5 +38,14 @@
                  android:targetPackage="org.lineageos.settings.doze"
                  android:targetClass="org.lineageos.settings.doze.DozeSettingsActivity"/>
         </Preference>
+        <Preference
+            android:key="dirac"
+            android:persistent="false"
+            android:title="@string/dirac_title"
+            android:summary="@string/dirac_summary">
+            <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="org.lineageos.settings.dirac"
+                 android:targetClass="org.lineageos.settings.dirac.DiracActivity"/>
+        </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
