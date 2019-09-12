@@ -518,7 +518,6 @@ service start_hci_filter /system/vendor/bin/wcnss_filter
     class late_start
     user bluetooth
     group bluetooth diag system wakelock
-    seclabel u:r:bluetooth:s0
     disabled
     writepid /dev/cpuset/system-background/tasks
 
@@ -631,7 +630,6 @@ service vendor.ril-daemon2 /vendor/bin/hw/rild -c 2
 service charger /sbin/chargeonlymode
     class charger
     group system graphics
-    seclabel u:r:charger:s0
 
 service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
