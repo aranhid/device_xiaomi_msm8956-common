@@ -203,6 +203,7 @@ TARGET_SYSTEM_PROP += $(VENDOR_PATH)/system.prop
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
+QCOM_HARDWARE_VARIANT = msm8952
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/etc/fstab.qcom
