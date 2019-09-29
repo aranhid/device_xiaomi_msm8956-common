@@ -35,7 +35,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_CFLAGS += -DCAMERA_ION_HEAP_ID=ION_IOMMU_HEAP_ID
 
-LOCAL_C_INCLUDES += hardware/qcom/media-caf-msm8952/mm-core/inc
+LOCAL_C_INCLUDES += hardware/qcom-caf/msm8952/media/mm-core/inc
 LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 
 ifneq (1,$(filter 1,$(shell echo "$$(( $(PLATFORM_SDK_VERSION) >= 17 ))" )))
