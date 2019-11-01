@@ -82,7 +82,7 @@ on early-boot
     chown system graphics /sys/class/graphics/fb0/mdp/bw_mode_bitmap
     chmod 0664 /sys/class/graphics/fb0/mdp/bw_mode_bitmap
 
-on boot   
+on boot
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/state
@@ -479,11 +479,6 @@ on property:vold.decrypt=trigger_restart_framework
     restart vendor.camera-provider-2-4
     start vendor.wcnss-service
     start config_bt_addr
-
-service loggy /system/bin/sh  /loggy.sh
-    class main
-    user root
-    oneshot
 
 service vendor.cnd /system/vendor/bin/cnd
     class main
