@@ -30,9 +30,7 @@ $(call inherit-product-if-exists, vendor/xiaomi/msm8956-common/msm8956-common-ve
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
+$(call inherit-product, vendor/nitrogen/config/phone-xxhdpi-2048-hwui-memory.mk)
 
 # Permissions
 PRODUCT_COPY_FILES += \
